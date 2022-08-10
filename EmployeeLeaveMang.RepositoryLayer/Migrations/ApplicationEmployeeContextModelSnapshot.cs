@@ -76,6 +76,9 @@ namespace EmployeeLeaveMang.RepositoryLayer.Migrations
                     b.Property<int>("LeaveDuration")
                         .HasColumnType("int");
 
+                    b.Property<string>("LeaveStatus")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("LeaveType")
                         .HasColumnType("nvarchar(max)");
 

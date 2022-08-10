@@ -2,7 +2,7 @@
 
 namespace EmployeeLeaveMang.RepositoryLayer.Migrations
 {
-    public partial class Init : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -45,7 +45,8 @@ namespace EmployeeLeaveMang.RepositoryLayer.Migrations
                     LeaveId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     LeaveDuration = table.Column<int>(type: "int", nullable: false),
-                    LeaveType = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    LeaveType = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    LeaveStatus = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

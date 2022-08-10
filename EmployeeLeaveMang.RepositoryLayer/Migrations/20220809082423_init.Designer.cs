@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeLeaveMang.RepositoryLayer.Migrations
 {
     [DbContext(typeof(ApplicationEmployeeContext))]
-    [Migration("20220317052437_Init")]
-    partial class Init
+    [Migration("20220809082423_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -77,6 +77,9 @@ namespace EmployeeLeaveMang.RepositoryLayer.Migrations
 
                     b.Property<int>("LeaveDuration")
                         .HasColumnType("int");
+
+                    b.Property<string>("LeaveStatus")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LeaveType")
                         .HasColumnType("nvarchar(max)");

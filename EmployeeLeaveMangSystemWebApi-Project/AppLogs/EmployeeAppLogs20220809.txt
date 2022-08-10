@@ -174,3 +174,529 @@ Error Number:4060,State:1,Class:11
 2022-08-09T12:58:27.3335059+05:30 8000004e-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 350.4694ms (791a596a)
 2022-08-09T12:58:27.7091564+05:30 8000004f-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
 2022-08-09T12:58:27.8985771+05:30 8000004f-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 189.4198ms (791a596a)
+2022-08-09T13:39:41.5965921+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T13:39:41.6176025+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T13:39:41.6245681+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T13:39:41.6800261+05:30 80000051-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T13:39:41.8269112+05:30 80000051-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 146.0551ms (791a596a)
+2022-08-09T13:39:42.0625494+05:30 80000052-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T13:39:42.1465833+05:30 80000052-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.0237ms (791a596a)
+2022-08-09T13:44:20.3808204+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T13:44:20.3893314+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T13:44:20.3916197+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T13:44:20.4273877+05:30 80000054-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T13:44:20.6994505+05:30 80000054-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 283.0601ms (791a596a)
+2022-08-09T13:44:21.1285062+05:30 80000055-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T13:44:21.2758538+05:30 80000055-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.2757ms (791a596a)
+2022-08-09T13:48:53.6866895+05:30  [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T13:49:41.3228472+05:30  [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T13:51:12.9028049+05:30  [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T13:51:35.1139636+05:30  [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T13:51:35.7343116+05:30  [INF] Executed DbCommand ("223"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [EmployeeLeaveMangDB];" (0723d8ff)
+2022-08-09T13:51:35.7841863+05:30  [INF] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EmployeeLeaveMangDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;" (0723d8ff)
+2022-08-09T13:51:35.7993153+05:30  [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2022-08-09T13:51:35.8761900+05:30  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);" (0723d8ff)
+2022-08-09T13:51:35.8773078+05:30  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2022-08-09T13:51:35.8898566+05:30  [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2022-08-09T13:51:35.8930941+05:30  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2022-08-09T13:51:35.9031959+05:30  [INF] Applying migration '"20220809082112_init"'. (0e2ac64d)
+2022-08-09T13:51:35.9216271+05:30  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [ApplyPlannedLeaves] (
+    [EmpId] int NOT NULL IDENTITY,
+    [EmpName] nvarchar(max) NULL,
+    [LeaveDuration] int NOT NULL,
+    [LeaveReason] nvarchar(max) NULL,
+    CONSTRAINT [PK_ApplyPlannedLeaves] PRIMARY KEY ([EmpId])
+);" (0723d8ff)
+2022-08-09T13:51:35.9230247+05:30  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [EmployeeClassDetail] (
+    [EmpId] int NOT NULL IDENTITY,
+    [EmpName] nvarchar(max) NULL,
+    [EmpGender] nvarchar(max) NULL,
+    [LeaveStatus] nvarchar(max) NULL,
+    [LeaveId] int NOT NULL,
+    [LeaveType] nvarchar(max) NULL,
+    CONSTRAINT [PK_EmployeeClassDetail] PRIMARY KEY ([EmpId])
+);" (0723d8ff)
+2022-08-09T13:51:35.9247805+05:30  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [LeaveDetails] (
+    [LeaveId] int NOT NULL IDENTITY,
+    [LeaveDuration] int NOT NULL,
+    [LeaveType] nvarchar(max) NULL,
+    [LeaveStatus] nvarchar(max) NULL,
+    CONSTRAINT [PK_LeaveDetails] PRIMARY KEY ([LeaveId])
+);" (0723d8ff)
+2022-08-09T13:51:35.9277671+05:30  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20220809082112_init', N'5.0.15');" (0723d8ff)
+2022-08-09T13:54:23.4170866+05:30  [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T13:54:39.4992490+05:30  [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T13:54:39.9063126+05:30  [INF] Executed DbCommand ("172"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [AttendanceLeaveMangDB];" (0723d8ff)
+2022-08-09T13:54:39.9654669+05:30  [INF] Executed DbCommand ("58"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [AttendanceLeaveMangDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;" (0723d8ff)
+2022-08-09T13:54:39.9789856+05:30  [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2022-08-09T13:54:40.0519969+05:30  [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);" (0723d8ff)
+2022-08-09T13:54:40.0535686+05:30  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1" (0723d8ff)
+2022-08-09T13:54:40.0664899+05:30  [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2022-08-09T13:54:40.0698372+05:30  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2022-08-09T13:54:40.0800107+05:30  [INF] Applying migration '"20220809082423_init"'. (0e2ac64d)
+2022-08-09T13:54:40.0950982+05:30  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [ApplyPlannedLeaves] (
+    [EmpId] int NOT NULL IDENTITY,
+    [EmpName] nvarchar(max) NULL,
+    [LeaveDuration] int NOT NULL,
+    [LeaveReason] nvarchar(max) NULL,
+    CONSTRAINT [PK_ApplyPlannedLeaves] PRIMARY KEY ([EmpId])
+);" (0723d8ff)
+2022-08-09T13:54:40.0968688+05:30  [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [EmployeeClassDetail] (
+    [EmpId] int NOT NULL IDENTITY,
+    [EmpName] nvarchar(max) NULL,
+    [EmpGender] nvarchar(max) NULL,
+    [LeaveStatus] nvarchar(max) NULL,
+    [LeaveId] int NOT NULL,
+    [LeaveType] nvarchar(max) NULL,
+    CONSTRAINT [PK_EmployeeClassDetail] PRIMARY KEY ([EmpId])
+);" (0723d8ff)
+2022-08-09T13:54:40.0979531+05:30  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [LeaveDetails] (
+    [LeaveId] int NOT NULL IDENTITY,
+    [LeaveDuration] int NOT NULL,
+    [LeaveType] nvarchar(max) NULL,
+    [LeaveStatus] nvarchar(max) NULL,
+    CONSTRAINT [PK_LeaveDetails] PRIMARY KEY ([LeaveId])
+);" (0723d8ff)
+2022-08-09T13:54:40.0994546+05:30  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20220809082423_init', N'5.0.15');" (0723d8ff)
+2022-08-09T13:57:27.0525114+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T13:57:27.0625280+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T13:57:27.0650633+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T13:57:27.1065515+05:30 80000057-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T13:57:27.2719199+05:30 80000057-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 191.6202ms (791a596a)
+2022-08-09T13:57:27.4788837+05:30 80000058-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T13:57:27.6466295+05:30 80000058-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.9593ms (791a596a)
+2022-08-09T14:01:38.8907506+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 POST http://localhost:51359/api/Administrator/AddEmployee application/json 106 (ca22a1cb)
+2022-08-09T14:01:38.9557402+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:01:39.0185526+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddEmployee\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult AddEmployee(EmployeeLeaveMang.DomainLayer.Models.EmployeeClass)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:01:39.4982061+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T14:01:40.0308782+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T14:01:41.0788766+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("43"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [EmployeeClassDetail] ([EmpGender], [EmpName], [LeaveId], [LeaveStatus], [LeaveType])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [EmpId]
+FROM [EmployeeClassDetail]
+WHERE @@ROWCOUNT = 1 AND [EmpId] = scope_identity();" (0723d8ff)
+2022-08-09T14:01:41.1413752+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2022-08-09T14:01:41.1471219+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)" in 2123.8014ms (afa2e885)
+2022-08-09T14:01:41.1471938+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:01:41.1510852+05:30 8000005a-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 POST http://localhost:51359/api/Administrator/AddEmployee application/json 106 - 200 - text/plain;+charset=utf-8 2264.1494ms (791a596a)
+2022-08-09T14:02:11.4458998+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetAllEmployee - - (ca22a1cb)
+2022-08-09T14:02:11.4494686+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:02:11.4525202+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllEmployee\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllEmployee()" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:02:11.4907408+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T14:02:11.5234252+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T14:02:11.7456996+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]" (0723d8ff)
+2022-08-09T14:02:11.7539753+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[EmployeeLeaveMang.DomainLayer.Models.EmployeeClass, EmployeeLeaveMang.DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2022-08-09T14:02:11.7681031+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)" in 315.4601ms (afa2e885)
+2022-08-09T14:02:11.7681759+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:02:11.7700448+05:30 8000005b-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetAllEmployee - - - 200 - application/json;+charset=utf-8 324.1796ms (791a596a)
+2022-08-09T14:03:06.8278517+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 POST http://localhost:51359/api/Administrator/AddEmployee application/json 113 (ca22a1cb)
+2022-08-09T14:03:06.8326271+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:03:06.8328638+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddEmployee\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult AddEmployee(EmployeeLeaveMang.DomainLayer.Models.EmployeeClass)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:03:06.8427161+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T14:03:06.8529771+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T14:03:06.8588507+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [EmployeeClassDetail] ([EmpGender], [EmpName], [LeaveId], [LeaveStatus], [LeaveType])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [EmpId]
+FROM [EmployeeClassDetail]
+WHERE @@ROWCOUNT = 1 AND [EmpId] = scope_identity();" (0723d8ff)
+2022-08-09T14:03:06.8654174+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2022-08-09T14:03:06.8656834+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)" in 32.7877ms (afa2e885)
+2022-08-09T14:03:06.8657375+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:03:06.8660981+05:30 8000005c-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 POST http://localhost:51359/api/Administrator/AddEmployee application/json 113 - 200 - text/plain;+charset=utf-8 38.3624ms (791a596a)
+2022-08-09T14:03:19.1727605+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetAllEmployee - - (ca22a1cb)
+2022-08-09T14:03:19.1745114+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:03:19.1749304+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllEmployee\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllEmployee()" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:03:19.1788604+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T14:03:19.1798437+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T14:03:19.1847713+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]" (0723d8ff)
+2022-08-09T14:03:19.1851168+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[EmployeeLeaveMang.DomainLayer.Models.EmployeeClass, EmployeeLeaveMang.DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2022-08-09T14:03:19.1862836+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)" in 11.2881ms (afa2e885)
+2022-08-09T14:03:19.1863495+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:03:19.1884266+05:30 8000005d-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetAllEmployee - - - 200 - application/json;+charset=utf-8 15.3530ms (791a596a)
+2022-08-09T14:06:28.1110671+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 PUT http://localhost:51359/api/Administrator/UpdateEmployee application/json 110 (ca22a1cb)
+2022-08-09T14:06:28.1112948+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.UpdateEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:06:28.1127147+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"UpdateEmployee\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult UpdateEmployee(EmployeeLeaveMang.DomainLayer.Models.EmployeeClass)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:06:28.1155335+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T14:06:28.1178523+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T14:06:28.1397669+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("11"ms) [Parameters=["@p5='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [EmployeeClassDetail] SET [EmpGender] = @p0, [EmpName] = @p1, [LeaveId] = @p2, [LeaveStatus] = @p3, [LeaveType] = @p4
+WHERE [EmpId] = @p5;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2022-08-09T14:06:28.1409679+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2022-08-09T14:06:28.1412700+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.UpdateEmployee (EmployeeLeaveMangSystemWebApi-Project)" in 28.5138ms (afa2e885)
+2022-08-09T14:06:28.1413334+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.UpdateEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:06:28.1456800+05:30 8000002a-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 PUT http://localhost:51359/api/Administrator/UpdateEmployee application/json 110 - 200 - text/plain;+charset=utf-8 34.6202ms (791a596a)
+2022-08-09T14:06:49.6658482+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetAllEmployee - - (ca22a1cb)
+2022-08-09T14:06:49.6663813+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:06:49.6665018+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllEmployee\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllEmployee()" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:06:49.6706302+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T14:06:49.6715733+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T14:06:49.6756384+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]" (0723d8ff)
+2022-08-09T14:06:49.6777497+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[EmployeeLeaveMang.DomainLayer.Models.EmployeeClass, EmployeeLeaveMang.DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2022-08-09T14:06:49.6793536+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)" in 12.8087ms (afa2e885)
+2022-08-09T14:06:49.6793944+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:06:49.6805314+05:30 8000002b-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetAllEmployee - - - 200 - application/json;+charset=utf-8 14.6704ms (791a596a)
+2022-08-09T14:07:28.6202523+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=2 - - (ca22a1cb)
+2022-08-09T14:07:28.6207005+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:07:28.6277549+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetEmployeeById\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetEmployeeById(Int32)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:07:28.6332141+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T14:07:28.6448246+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T14:07:28.7298196+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]
+WHERE [e].[EmpId] = @__p_0" (0723d8ff)
+2022-08-09T14:07:28.7300502+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"EmployeeLeaveMang.DomainLayer.Models.EmployeeClass"'. (605b4265)
+2022-08-09T14:07:28.7303592+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)" in 102.5543ms (afa2e885)
+2022-08-09T14:07:28.7303964+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:07:28.7307354+05:30 8000002c-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=2 - - - 200 - application/json;+charset=utf-8 110.5060ms (791a596a)
+2022-08-09T14:08:08.7852372+05:30 8000002d-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - (ca22a1cb)
+2022-08-09T14:08:08.7856007+05:30 8000002d-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:08:08.7864207+05:30 8000002d-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllLeaveType\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllLeaveType()" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:17:35.5960697+05:30 8000002d-0002-fd00-b63f-84710c7967bb [INF] Executed action "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)" in 566809.5867ms (afa2e885)
+2022-08-09T14:17:35.5994615+05:30 8000002d-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:17:35.8034702+05:30 8000002d-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogError(ILogger logger, String message, Object[] args)
+   at EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType() in C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project\Controllers\EmployeeController.cs:line 36
+   at lambda_method73(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-09T14:17:35.8383080+05:30 8000002d-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - - 500 - text/plain 567053.0347ms (791a596a)
+2022-08-09T14:19:21.9956528+05:30 8000002e-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 POST http://localhost:51359/api/Employee/ApplyPLeave application/json 77 (ca22a1cb)
+2022-08-09T14:19:21.9970405+05:30 8000002e-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.ApplyPLeave (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:19:22.0007388+05:30 8000002e-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"ApplyPLeave\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult ApplyPLeave(EmployeeLeaveMang.DomainLayer.Models.ApplyPlannedLeave)" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:19:31.2872993+05:30 8000002e-0002-fd00-b63f-84710c7967bb [INF] Executed action "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.ApplyPLeave (EmployeeLeaveMangSystemWebApi-Project)" in 9286.4961ms (afa2e885)
+2022-08-09T14:19:31.2910317+05:30 8000002e-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.ApplyPLeave (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T14:19:31.2984170+05:30 8000002e-0002-fd00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogError(ILogger logger, String message, Object[] args)
+   at EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.ApplyPLeave(ApplyPlannedLeave applyPlannedLeave) in C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project\Controllers\EmployeeController.cs:line 54
+   at lambda_method75(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-09T14:19:31.3046359+05:30 8000002e-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 POST http://localhost:51359/api/Employee/ApplyPLeave application/json 77 - 500 - text/plain 9308.9630ms (791a596a)
+2022-08-09T14:19:55.5421250+05:30 8000002f-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 POST http://localhost:51359/api/Employee/ApplyPLeave application/json 77 (ca22a1cb)
+2022-08-09T14:19:55.5422896+05:30 8000002f-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.ApplyPLeave (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:19:55.5424164+05:30 8000002f-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"ApplyPLeave\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult ApplyPLeave(EmployeeLeaveMang.DomainLayer.Models.ApplyPlannedLeave)" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T14:30:01.4053578+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T14:30:01.4109210+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T14:30:01.4129752+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T14:30:01.4250073+05:30 80000031-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T14:30:01.5760612+05:30 80000031-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 153.3711ms (791a596a)
+2022-08-09T14:30:01.8154834+05:30 80000032-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T14:30:01.9230474+05:30 80000032-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.6940ms (791a596a)
+2022-08-09T14:30:33.6237411+05:30 80000034-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 POST http://localhost:51359/api/Employee/ApplyPLeave application/json 72 (ca22a1cb)
+2022-08-09T14:30:33.6803374+05:30 80000034-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.ApplyPLeave (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T14:30:33.7151962+05:30 80000034-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"ApplyPLeave\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult ApplyPLeave(EmployeeLeaveMang.DomainLayer.Models.ApplyPlannedLeave)" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:17:02.9890317+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T15:17:03.0322607+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T15:17:03.0526379+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T15:17:03.0765557+05:30 80000211-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger - - (ca22a1cb)
+2022-08-09T15:17:03.2925923+05:30 8000003a-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T15:17:03.3096142+05:30 80000211-0001-ff00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger - - - 301 - - 237.5773ms (791a596a)
+2022-08-09T15:17:03.5924713+05:30 8000003a-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 299.9401ms (791a596a)
+2022-08-09T15:17:03.6731830+05:30 8000003b-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/swagger-ui.css - - (ca22a1cb)
+2022-08-09T15:17:03.6736920+05:30 80000212-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/swagger-ui-bundle.js - - (ca22a1cb)
+2022-08-09T15:17:03.7260356+05:30 80000004-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/swagger-ui-standalone-preset.js - - (ca22a1cb)
+2022-08-09T15:17:03.8198724+05:30 80000004-0001-fc00-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2022-08-09T15:17:03.8204345+05:30 8000003b-0002-fd00-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2022-08-09T15:17:03.8377990+05:30 8000003b-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/swagger-ui.css - - - 200 142933 text/css 164.4343ms (791a596a)
+2022-08-09T15:17:03.8428997+05:30 80000212-0001-ff00-b63f-84710c7967bb [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2022-08-09T15:17:03.8757326+05:30 80000004-0001-fc00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 149.6393ms (791a596a)
+2022-08-09T15:17:03.9577751+05:30 80000212-0001-ff00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 284.0350ms (791a596a)
+2022-08-09T15:17:06.4714391+05:30 80000213-0001-ff00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T15:17:06.5861134+05:30 80000213-0001-ff00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.7219ms (791a596a)
+2022-08-09T15:17:40.9951654+05:30 8000008c-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - (ca22a1cb)
+2022-08-09T15:17:41.1431772+05:30 8000008c-0003-fe00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:17:41.2332185+05:30 8000008c-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllLeaveType\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllLeaveType()" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:21:05.4421877+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T15:21:05.4890409+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T15:21:05.5269679+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T15:21:05.6819820+05:30 800002cf-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T15:21:06.0081972+05:30 800002cf-0000-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 331.1856ms (791a596a)
+2022-08-09T15:21:06.6726030+05:30 800002d0-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T15:21:06.7944097+05:30 800002d0-0000-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.7909ms (791a596a)
+2022-08-09T15:22:21.4762770+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 POST http://localhost:51359/api/Administrator/AddEmployee application/json 107 (ca22a1cb)
+2022-08-09T15:22:21.6463861+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:22:21.7624830+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"AddEmployee\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult AddEmployee(EmployeeLeaveMang.DomainLayer.Models.EmployeeClass)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:22:22.2916466+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:22:23.9776962+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:22:27.3848592+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("134"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [EmployeeClassDetail] ([EmpGender], [EmpName], [LeaveId], [LeaveStatus], [LeaveType])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [EmpId]
+FROM [EmployeeClassDetail]
+WHERE @@ROWCOUNT = 1 AND [EmpId] = scope_identity();" (0723d8ff)
+2022-08-09T15:22:27.5807307+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2022-08-09T15:22:27.6006217+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)" in 5820.3543ms (afa2e885)
+2022-08-09T15:22:27.6008192+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.AddEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:22:27.6169946+05:30 800002d1-0000-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 POST http://localhost:51359/api/Administrator/AddEmployee application/json 107 - 200 - text/plain;+charset=utf-8 6140.7857ms (791a596a)
+2022-08-09T15:22:38.6661968+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=0 - - (ca22a1cb)
+2022-08-09T15:22:38.6773333+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:22:38.6898946+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetEmployeeById\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetEmployeeById(Int32)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:22:38.6988912+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:22:38.8128896+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:22:39.7155758+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("4"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]
+WHERE [e].[EmpId] = @__p_0" (0723d8ff)
+2022-08-09T15:22:39.7217930+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Executing "BadRequestObjectResult", writing value of type '"System.String"'. (605b4265)
+2022-08-09T15:22:39.7233731+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)" in 1032.9176ms (afa2e885)
+2022-08-09T15:22:39.7234897+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:22:39.7260623+05:30 800002d3-0000-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=0 - - - 400 - text/plain;+charset=utf-8 1059.8139ms (791a596a)
+2022-08-09T15:22:53.2137128+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=1 - - (ca22a1cb)
+2022-08-09T15:22:53.2140806+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:22:53.2143898+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetEmployeeById\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetEmployeeById(Int32)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:22:53.2221089+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:22:53.2558514+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:22:53.2709087+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]
+WHERE [e].[EmpId] = @__p_0" (0723d8ff)
+2022-08-09T15:22:53.2836338+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"EmployeeLeaveMang.DomainLayer.Models.EmployeeClass"'. (605b4265)
+2022-08-09T15:22:53.3167220+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)" in 102.2261ms (afa2e885)
+2022-08-09T15:22:53.3169647+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:22:53.3202249+05:30 80000063-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=1 - - - 200 - application/json;+charset=utf-8 106.4450ms (791a596a)
+2022-08-09T15:23:03.0424350+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=3 - - (ca22a1cb)
+2022-08-09T15:23:03.0433778+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:23:03.0435557+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetEmployeeById\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetEmployeeById(Int32)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:23:03.0486225+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:23:03.0495218+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:23:03.1066610+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("55"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]
+WHERE [e].[EmpId] = @__p_0" (0723d8ff)
+2022-08-09T15:23:03.1074637+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"EmployeeLeaveMang.DomainLayer.Models.EmployeeClass"'. (605b4265)
+2022-08-09T15:23:03.1091012+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)" in 65.4953ms (afa2e885)
+2022-08-09T15:23:03.1091491+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:23:03.1101244+05:30 8000003d-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=3 - - - 200 - application/json;+charset=utf-8 67.7678ms (791a596a)
+2022-08-09T15:23:14.7610233+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetAllEmployee - - (ca22a1cb)
+2022-08-09T15:23:14.7612569+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:23:14.7649103+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllEmployee\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllEmployee()" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:23:14.7756283+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:23:14.7783756+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:23:14.8059638+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]" (0723d8ff)
+2022-08-09T15:23:14.8067591+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[EmployeeLeaveMang.DomainLayer.Models.EmployeeClass, EmployeeLeaveMang.DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2022-08-09T15:23:14.8118358+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)" in 46.8151ms (afa2e885)
+2022-08-09T15:23:14.8119301+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetAllEmployee (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:23:14.8176249+05:30 80000065-0001-fe00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetAllEmployee - - - 200 - application/json;+charset=utf-8 52.0099ms (791a596a)
+2022-08-09T15:23:24.8342065+05:30 8000008e-0003-fe00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - (ca22a1cb)
+2022-08-09T15:23:24.8355668+05:30 8000008e-0003-fe00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:23:24.8376227+05:30 8000008e-0003-fe00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllLeaveType\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllLeaveType()" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:27:56.4017986+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T15:27:56.4090436+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T15:27:56.4126108+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T15:27:56.4373332+05:30 80000041-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T15:27:56.7059043+05:30 80000041-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 272.9759ms (791a596a)
+2022-08-09T15:27:57.0094059+05:30 80000042-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T15:27:57.2510344+05:30 80000042-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.6558ms (791a596a)
+2022-08-09T15:28:37.5998306+05:30 8000000f-0003-fc00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 POST http://localhost:51359/api/Employee/ApplyPLeave application/json 71 (ca22a1cb)
+2022-08-09T15:28:37.7590141+05:30 8000000f-0003-fc00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.ApplyPLeave (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:28:37.8761448+05:30 8000000f-0003-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"ApplyPLeave\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult ApplyPLeave(EmployeeLeaveMang.DomainLayer.Models.ApplyPlannedLeave)" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:35:07.7492266+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T15:35:07.7549711+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T15:35:07.7605230+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T15:35:07.7969539+05:30 80000006-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T15:35:08.0176248+05:30 80000006-0001-fc00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 244.3737ms (791a596a)
+2022-08-09T15:35:08.5360858+05:30 80000007-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T15:35:09.1843908+05:30 80000007-0001-fc00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 648.2811ms (791a596a)
+2022-08-09T15:35:24.2395485+05:30 80000009-0001-fc00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - (ca22a1cb)
+2022-08-09T15:35:24.3841035+05:30 80000009-0001-fc00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:35:24.4743489+05:30 80000009-0001-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllLeaveType\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllLeaveType()" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:38:30.3238460+05:30  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-08-09T15:38:30.3380690+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T15:38:30.3399636+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T15:38:30.3418370+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T15:38:31.2209266+05:30 0HMJPTSE3A8Q4:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - - (ca22a1cb)
+2022-08-09T15:38:31.3088252+05:30 0HMJPTSE3A8Q4:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 301 0 - 107.0160ms (791a596a)
+2022-08-09T15:38:31.3442668+05:30 0HMJPTSE3A8Q4:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - - (ca22a1cb)
+2022-08-09T15:38:31.4433326+05:30 0HMJPTSE3A8Q4:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 99.0403ms (791a596a)
+2022-08-09T15:38:31.4722052+05:30 0HMJPTSE3A8Q4:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - (ca22a1cb)
+2022-08-09T15:38:31.4768982+05:30 0HMJPTSE3A8Q6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - - (ca22a1cb)
+2022-08-09T15:38:31.4768982+05:30 0HMJPTSE3A8Q5:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - - (ca22a1cb)
+2022-08-09T15:38:31.5397853+05:30 0HMJPTSE3A8Q4:00000004 [INF] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"' (27b0a520)
+2022-08-09T15:38:31.5413779+05:30 0HMJPTSE3A8Q4:00000004 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 200 142933 text/css 69.1694ms (791a596a)
+2022-08-09T15:38:31.5423782+05:30 0HMJPTSE3A8Q6:00000002 [INF] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"' (27b0a520)
+2022-08-09T15:38:31.5425044+05:30 0HMJPTSE3A8Q6:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 65.6176ms (791a596a)
+2022-08-09T15:38:31.6215925+05:30 0HMJPTSE3A8Q5:00000002 [INF] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"' (27b0a520)
+2022-08-09T15:38:31.6217451+05:30 0HMJPTSE3A8Q5:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 144.8663ms (791a596a)
+2022-08-09T15:38:31.9752319+05:30 0HMJPTSE3A8Q5:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T15:38:32.0638993+05:30 0HMJPTSE3A8Q6:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - - (ca22a1cb)
+2022-08-09T15:38:32.0685238+05:30 0HMJPTSE3A8Q6:00000003 [INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"' (27b0a520)
+2022-08-09T15:38:32.0686289+05:30 0HMJPTSE3A8Q6:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - - - 200 628 image/png 4.8635ms (791a596a)
+2022-08-09T15:38:32.1269166+05:30 0HMJPTSE3A8Q5:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 152.0259ms (791a596a)
+2022-08-09T15:38:44.7361401+05:30 0HMJPTSE3A8Q7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllLeaveType - - (ca22a1cb)
+2022-08-09T15:38:44.8247641+05:30 0HMJPTSE3A8Q7:00000002 [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:38:44.9093498+05:30 0HMJPTSE3A8Q7:00000002 [INF] Route matched with "{action = \"GetAllLeaveType\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllLeaveType()" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:43:42.4836814+05:30  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-08-09T15:43:42.4893495+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T15:43:42.4913701+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T15:43:42.4931760+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T15:43:44.0179210+05:30 0HMJPTVB5MJOG:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - - (ca22a1cb)
+2022-08-09T15:43:44.4008217+05:30 0HMJPTVB5MJOG:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 373.0422ms (791a596a)
+2022-08-09T15:43:44.9512021+05:30 0HMJPTVB5MJOG:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T15:43:45.1518621+05:30 0HMJPTVB5MJOG:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.7126ms (791a596a)
+2022-08-09T15:47:18.0474137+05:30  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-08-09T15:47:18.0542100+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T15:47:18.0562860+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T15:47:18.0577280+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T15:47:19.5461562+05:30 0HMJPU1BFSRPU:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - - (ca22a1cb)
+2022-08-09T15:47:19.7486859+05:30 0HMJPU1BFSRPU:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 208.3757ms (791a596a)
+2022-08-09T15:47:20.1453718+05:30 0HMJPU1BFSRPU:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T15:47:20.3205638+05:30 0HMJPU1BFSRPU:00000003 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 175.1839ms (791a596a)
+2022-08-09T15:47:27.0209768+05:30 0HMJPU1BFSRPV:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllLeaveType - - (ca22a1cb)
+2022-08-09T15:47:27.1470345+05:30 0HMJPU1BFSRPV:00000002 [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:47:27.2194200+05:30 0HMJPU1BFSRPV:00000002 [INF] Route matched with "{action = \"GetAllLeaveType\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllLeaveType()" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:47:27.7334710+05:30 0HMJPU1BFSRPV:00000002 [INF] Employee Added (5953a8a7)
+2022-08-09T15:47:29.3130631+05:30 0HMJPU1BFSRPV:00000002 [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:47:31.3680995+05:30 0HMJPU1BFSRPV:00000002 [INF] Executed DbCommand ("80"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [l].[LeaveId], [l].[LeaveDuration], [l].[LeaveStatus], [l].[LeaveType]
+FROM [LeaveDetails] AS [l]" (0723d8ff)
+2022-08-09T15:47:31.6207809+05:30 0HMJPU1BFSRPV:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[EmployeeLeaveMang.DomainLayer.Models.LeaveDetail, EmployeeLeaveMang.DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2022-08-09T15:47:31.6561894+05:30 0HMJPU1BFSRPV:00000002 [INF] Executed action "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)" in 4429.071ms (afa2e885)
+2022-08-09T15:47:31.6563406+05:30 0HMJPU1BFSRPV:00000002 [INF] Executed endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:47:31.6659384+05:30 0HMJPU1BFSRPV:00000002 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllLeaveType - - - 200 - application/json;+charset=utf-8 4644.9465ms (791a596a)
+2022-08-09T15:48:19.1036595+05:30  [INF] Application is shutting down... (90f52c38)
+2022-08-09T15:48:39.0059764+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-08-09T15:48:39.0224128+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2022-08-09T15:48:39.0254093+05:30  [INF] Content root path: "C:\Users\hp\Source\Repos\AttendanceLeaveMangSystem\EmployeeLeaveMangSystemWebApi-Project" (b5d60022)
+2022-08-09T15:48:39.0527896+05:30 8000005e-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/index.html - - (ca22a1cb)
+2022-08-09T15:48:39.2021476+05:30 8000005e-0001-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/index.html - - - 200 - text/html;charset=utf-8 161.0845ms (791a596a)
+2022-08-09T15:48:39.3968814+05:30 8000005f-0001-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - (ca22a1cb)
+2022-08-09T15:48:39.5199569+05:30 8000005f-0001-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.4471ms (791a596a)
+2022-08-09T15:48:46.0927265+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - (ca22a1cb)
+2022-08-09T15:48:46.2351257+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:48:46.3224225+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllLeaveType\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllLeaveType()" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:48:46.7743613+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:48:48.3679407+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:48:50.1716101+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Executed DbCommand ("87"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [l].[LeaveId], [l].[LeaveDuration], [l].[LeaveStatus], [l].[LeaveType]
+FROM [LeaveDetails] AS [l]" (0723d8ff)
+2022-08-09T15:48:50.4297221+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[EmployeeLeaveMang.DomainLayer.Models.LeaveDetail, EmployeeLeaveMang.DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2022-08-09T15:48:50.4810602+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Executed action "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)" in 4148.9146ms (afa2e885)
+2022-08-09T15:48:50.4831516+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Executed endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:48:50.4894070+05:30 80000013-0003-fc00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - - 200 - application/json;+charset=utf-8 4396.6765ms (791a596a)
+2022-08-09T15:49:20.3820763+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 PUT http://localhost:51359/api/Employee/CancelPlannedLeave?EmpId=2 - 0 (ca22a1cb)
+2022-08-09T15:49:20.3861884+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.CancelPlannedLeave (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:49:20.4233791+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"CancelPlannedLeave\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult CancelPlannedLeave(Int32)" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:49:20.4381945+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:49:20.5663618+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:49:20.9009018+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("66"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [a].[EmpId], [a].[EmpName], [a].[LeaveDuration], [a].[LeaveReason]
+FROM [ApplyPlannedLeaves] AS [a]
+WHERE [a].[EmpId] = @__p_0" (0723d8ff)
+2022-08-09T15:49:20.9066806+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2022-08-09T15:49:20.9083589+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Executed action "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.CancelPlannedLeave (EmployeeLeaveMangSystemWebApi-Project)" in 484.8054ms (afa2e885)
+2022-08-09T15:49:20.9084623+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.CancelPlannedLeave (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:49:20.9093481+05:30 80000044-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 PUT http://localhost:51359/api/Employee/CancelPlannedLeave?EmpId=2 - 0 - 200 - text/plain;+charset=utf-8 527.4287ms (791a596a)
+2022-08-09T15:49:30.4020583+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - (ca22a1cb)
+2022-08-09T15:49:30.4023238+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Executing endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:49:30.4025646+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Route matched with "{action = \"GetAllLeaveType\", controller = \"Employee\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAllLeaveType()" on controller "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:49:30.4121040+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:49:30.4339595+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:49:30.4395020+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [l].[LeaveId], [l].[LeaveDuration], [l].[LeaveStatus], [l].[LeaveType]
+FROM [LeaveDetails] AS [l]" (0723d8ff)
+2022-08-09T15:49:30.4403742+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[EmployeeLeaveMang.DomainLayer.Models.LeaveDetail, EmployeeLeaveMang.DomainLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (605b4265)
+2022-08-09T15:49:30.4420982+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Executed action "EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)" in 39.4392ms (afa2e885)
+2022-08-09T15:49:30.4422156+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Executed endpoint '"EmployeeLeaveMangSystemWebApi_Project.Controllers.EmployeeController.GetAllLeaveType (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:49:30.4462668+05:30 80000045-0002-fd00-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Employee/GetAllLeaveType - - - 200 - application/json;+charset=utf-8 44.0889ms (791a596a)
+2022-08-09T15:49:52.5859133+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Request starting HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=2 - - (ca22a1cb)
+2022-08-09T15:49:52.6016359+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Executing endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (500cc934)
+2022-08-09T15:49:52.6035775+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Route matched with "{action = \"GetEmployeeById\", controller = \"Administrator\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetEmployeeById(Int32)" on controller "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController" ("EmployeeLeaveMangSystemWebApi-Project"). (122b2fdf)
+2022-08-09T15:49:52.6125683+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Employee Added (5953a8a7)
+2022-08-09T15:49:52.6145532+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Entity Framework Core "5.0.15" initialized '"ApplicationEmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2022-08-09T15:49:52.6348967+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[EmpId], [e].[EmpGender], [e].[EmpName], [e].[LeaveId], [e].[LeaveStatus], [e].[LeaveType]
+FROM [EmployeeClassDetail] AS [e]
+WHERE [e].[EmpId] = @__p_0" (0723d8ff)
+2022-08-09T15:49:52.6688806+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Executing "OkObjectResult", writing value of type '"EmployeeLeaveMang.DomainLayer.Models.EmployeeClass"'. (605b4265)
+2022-08-09T15:49:52.6791308+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Executed action "AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)" in 75.4461ms (afa2e885)
+2022-08-09T15:49:52.6792359+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Executed endpoint '"AttendanceLeaveMangSystemWebApi_Project.Controllers.AdministratorController.GetEmployeeById (EmployeeLeaveMangSystemWebApi-Project)"' (99874f2b)
+2022-08-09T15:49:52.6802539+05:30 8000000a-0000-f900-b63f-84710c7967bb [INF] Request finished HTTP/1.1 GET http://localhost:51359/api/Administrator/GetEmployeeById?EmpId=2 - - - 200 - application/json;+charset=utf-8 94.4366ms (791a596a)

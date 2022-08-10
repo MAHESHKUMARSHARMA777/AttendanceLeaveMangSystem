@@ -17,6 +17,14 @@ namespace EmployeeLeaveMangSystemWebApi_Project.Controllers
         private readonly ILogger<EmployeeController> _logger;
 
 
+        #region "Constructor init"
+        public EmployeeController(InterfaceEmployeeService EmployeeService, ILogger<EmployeeController> logger)
+        {
+            _logger = logger;
+            _logger.LogInformation("Employee Added");
+            this.EmployeeService = EmployeeService;
+        }
+        #endregion
 
         #region "View Employee Leave Status"
         [HttpGet(nameof(GetAllLeaveType))]
@@ -53,11 +61,11 @@ namespace EmployeeLeaveMangSystemWebApi_Project.Controllers
             {
                 _logger.LogError("Exception Occured", e.InnerException);
             }
-            return BadRequest("Not found");
+            return BadRequest("Not Found");
 
         }
         #endregion
-
+        
         #region "Cancel Planned Leaves"
         [HttpPut(nameof(CancelPlannedLeave))]
         public ActionResult CancelPlannedLeave(int EmpId)
@@ -72,8 +80,9 @@ namespace EmployeeLeaveMangSystemWebApi_Project.Controllers
             catch (Exception e)
             {
                 _logger.LogError("Exception Occured", e.InnerException);
+                return BadRequest();
             }
-            return BadRequest("Not found");
+            
         }
         #endregion
     }
